@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="traffic.css"/>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="heading-card">
+                <h1 class="main-heading">TRAFFIC FLOW FORECASTING</h1>
+                <p class="paragraph">-----------------------------------------------------------------------------------------</p>
+                <button class="button" onclick="display('sectionlocations')">
+                    Get Started
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionlocations">
+        <div class="bg_container1 d-flex flex-column justify-content-center">
+            <h1 class="places-heading">Locations</h1>
+            <label for="locations" class="label1">Choose a location:</label>
+
+            <select name="locations" id="locations" class="label2">
+                <option value="Padmavati Nagar">Padmavati Nagar</option>
+                <option value="Prakash Nagar">Prakash Nagar</option>
+                <option value="Gandhi Road">Gandhi Road</option>
+                <option value="Air Bypass Road">Air Bypass Road</option>
+            </select>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+            <button class="button" onclick="display('sectionHome')">
+                back
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
